@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="icons8-business-50.png"
+      type="image/x-icon"
+    />
+    <title>Cards</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(
+          circle 588px at 31.7% 40.2%,
+          rgba(225, 200, 239, 1) 21.4%,
+          rgba(163, 225, 233, 1) 57.1%
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        width: 800px;
+        height: 500px;
+        display: flex;
+        background-color:lavenderblush;
+      }
+      #leftBox {
+        margin: 15px;
+        padding: 10px;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
+      #rightBox {
+        width: 50%;
+        height: 100%;
+      }
+      #rightBox img {
+        width: 100%;
+        height: 100%;
+      }
+      .firstContainer {
+        /* text-align: center; */
+        margin-top: 20px;
+        font-weight: bold;
+      }
+      .thirdContainer {
+        display: flex;
+        column-gap: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div id="leftBox">
+          <div class="firstContainer">
+            <h1>Get insights that help your bussiness grow</h1>
+          </div>
+
+          <div class="secondContainer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus porro quas consectetur impedit facilis aliquid
+              repellendus nam beatae cupiditate sapiente aliquam ipsam
+              exercitationem repellat vel, ullam sed tenetur veritatis? Neque ea
+              fuga voluptas! Totam perspiciatis dicta consectetur illum
+              consequuntur corrupti, praesentium a eius voluptatem dignissimos,
+              harum ea ipsum possimus illo!
+            </p>
+          </div>
+          <div class="thirdContainer">
+            <div class="box1">
+              <h1>10K+</h1>
+              <p>Subscribers</p>
+            </div>
+
+            <div class="box2">
+              <h1>214</h1>
+              <p>Paid Users</p>
+            </div>
+
+            <div class="box3">
+              <h1>12M+</h1>
+              <p>Paid Views</p>
+            </div>
+          </div>
+        </div>
+        <div id="rightBox">
+          <img src="pexels-ovan-57690.jpg" alt="Bussiness" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
